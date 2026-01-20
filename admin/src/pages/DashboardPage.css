@@ -1,0 +1,20 @@
+.dashboard {
+  width: 100%;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: orange;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}

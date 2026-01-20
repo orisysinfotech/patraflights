@@ -1,0 +1,183 @@
+/* Wrapper */
+.driverAttendance-wrapper {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-top: 10px;
+    margin-bottom: 10px;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size:22px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+/* Scroll container */
+.driverAttendance-scroll {
+  width: 1050px;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  height:340px;
+}
+.abstTable{
+   width: 1050px;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  height:300px;
+}
+
+/* Table */
+.driverAttendance-table {
+  table-layout: fixed;
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+/* Header */
+.driverAttendance-table thead th {
+  position: sticky;
+  top: 0;
+  /* z-index: 10; */
+  background: #ff9c07;
+  color: #fff;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  padding: 6px;
+}
+
+/* Sticky first column */
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 20;
+  background: #f1f5f9;
+  font-weight: 600;
+  border-right: 2px solid #c7d2fe;
+}
+
+.driver-head {
+  width: 200px;
+}
+
+.driver-name {
+  width: 200px;
+  text-align:center;
+}
+
+/* Date header */
+.date-head {
+  width: 70px;
+  min-width: 70px;
+  max-width: 70px;
+}
+
+.date-head small {
+  font-size: 10px;
+}
+
+/* Day cell */
+.day-cell {
+  width: 70px;
+  min-width: 70px;
+  max-width: 70px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  padding: 4px;
+}
+
+/* Select */
+.attendance-select {
+  width: 100%;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 4px;
+  border: 1px solid #c7d2fe;
+}
+
+/* Holiday */
+.holiday-head {
+  background-color: #dc2626 !important;
+}
+
+.holiday-cell {
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-weight: 600;
+}
+
+.holiday-text {
+  display: inline-block;
+  padding: 4px;
+}
+
+/* Hover */
+.driverAttendance-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.printArea{
+  margin-top:15px;
+}
+
+.abstTblTh{
+      font-size:13px;
+      text-align: center;
+}
+
+.abstTblTd{
+  text-align:center;
+  font-size:12px;
+}
+
+
+.pageTitle1{
+  border: 1px solid #fff;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 20px 20px 50px grey;
+    width: 100%;
+}
+
+
+.tab-pills {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.tab-pills button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  background: #eee;
+}
+
+.tab-pills button.active {
+  background: #00bcd4;
+  color: white;
+}
+
+.tab-content {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+

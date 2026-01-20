@@ -1,0 +1,124 @@
+.salary-page {
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.filter-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-row select {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.salary-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.salary-table th,
+.salary-table td {
+  border: 1px solid #999;
+  padding: 6px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.salary-table th {
+  background: #e2e2e2;
+}
+
+.net {
+  font-weight: bold;
+  color: purple;
+}
+
+.net-salary {
+  font-weight: bold;
+  color: purple;
+}
+
+salary-wrapper{
+   width: 100%;
+  padding: 10px;
+  background: #fff;
+}
+
+.abstractAttendance-scroll {
+  width: 1050px;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  height:400px;
+}
+
+.inputBodySize{
+  width:100px;
+}
+
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 20;
+  background: #f1f5f9;
+  font-weight: 600;
+  border-right: 2px solid #c7d2fe;
+}
+
+
+.comment-box {
+  width: 150px;
+  resize: vertical;   /* user resize kar sake */
+  padding: 4px;
+  font-size: 13px;
+}
+
+
+.confirm-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.confirm-box {
+  background: #fff;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-cancel {
+  background: #ccc;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+}
