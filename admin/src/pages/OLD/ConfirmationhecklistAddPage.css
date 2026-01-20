@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+/* FONT */
+.attendance-wrapper,
+.attendance-wrapper * {
+  font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif !important;
+}
+
+/* CONTAINER */
+.attendance-wrapper {
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* HEADER */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* HEADER BUTTON */
+.btn-admin {
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-manage {
+  background: #4caf50;
+}
+.btn-manage:hover {
+  background: #388e3c;
+}
+
+/* TABLE */
+.attendance-scroll {
+  overflow-x: auto;
+}
+
+.attendance-table-add {
+  width: 70%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.plus{
+font-size: 23px !important;
+padding: 0px 7px !important;
+line-height: 26px !important;}
+.mins{font-size: 13px;
+
+margin-top: -8px;
+padding: 0px 8px !important;;
+line-height: 25px !important;;
+
+font-weight: 600!important;}
+
+.attendance-table-add td {
+  padding: 5px 10px;
+
+  vertical-align: middle;
+}
+
+/* INPUTS */
+.form-control {
+  font-size: 13px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* ACTION COLUMN */
+.action-cell {
+  width: 60px;
+  text-align: center;
+}
+
+/* REMOVE BUTTON */
+.action-cell button {
+  padding: 4px 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* ACTION BAR */
+.action-bar {
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+/* ACTION BUTTONS */
+.action-bar .btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-left:20px;
+}
+
+/* REMOVE BOOTSTRAP BORDER */
+.table-bordered,
+.table-bordered td,
+.table-bordered th {
+  border: none;
+}
