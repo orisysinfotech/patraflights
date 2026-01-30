@@ -13,6 +13,8 @@ if (!baseURL || !IMAGE_BASE_URL) {
 const api = axios.create({
   baseURL,
 });
+console.log("API URL:", process.env.REACT_APP_API_URL);
+console.log("IMAGE URL:", process.env.REACT_APP_BASE_URL);
 
 // 🔐 Attach JWT token automatically
 // api.interceptors.request.use(

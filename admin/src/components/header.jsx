@@ -22,18 +22,16 @@ const AppLayout = () => {
            { label: "Country Name", path: "/master/manage-country" },
             // { label: "Monthly Attendance", path: "/driverAttendance/monthly" },
             { label: "City Name", path: "/master/manage-city" },
-            { label: "Airline Details", path: "/master/feedback-categorylist" },
-            { label: "Cabin Types", path: "/master/feedback-subcategory" },
-            { label: "Airport Details", path: "/master/feedback-subcategory" },
-            { label: "Generate JSON File", path: "/master/feedback-subcategory" },
+            { label: "Airline Details", path: "/master/manage-airline-details" },
+            { label: "Cabin Types", path: "/master/manage-cabin" },
+            { label: "Airport Details", path: "/master/Airportdetails" },
         ],
       },
        {
         label: "Flight Module",
         icon: History,
         children: [
-          { label: "Manage Route", path: "/driverAttendance/daily" },
-          { label: "Manage Template", path: "/driverAttendance/monthly" },
+          { label: "Manage Route", path: "/manageroute" },
         ],
       },
       // {
